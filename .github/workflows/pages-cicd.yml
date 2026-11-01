@@ -1,5 +1,5 @@
 name: 'Pages CI/CD'
-run-name: "Deploying by @${{ github.actor }}"
+run-name: "Deploying by @${{ github.actor }} (${{ github.event_name }})"
 
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
